@@ -1,12 +1,30 @@
-body {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.7;
-  font-family: 'Inconsolata', monospace;
-  color: #2c2c54; }
-.p 
-{
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-right: 100px; }
+.poem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 840px;
+  margin-bottom: -15px;
+}
+.author {
+margin-left: 840px;
+font-style: italic;
+}
+.poem {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.description {
+  text-align: left;
+  margin-left: 817px;
+  margin-top: 35px;
+}
